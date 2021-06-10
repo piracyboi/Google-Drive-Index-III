@@ -1,10 +1,11 @@
 const authConfig = {
-  "siteName": "Google Drive Index", 
-  "siteIcon": "https://raw.githubusercontent.com/sawankumar/Google-Drive-Index-III/master/images/favicon.png",
+  "siteName": "Tvseriesco-Uploader4", 
+  "siteIcon": "blob:https://web.telegram.org/51bb124a-a660-4026-a011-8cdd39ec2db7",
   "version": "4.28",
-  "client_id": "202264815644.apps.googleusercontent.com",
-  "client_secret": "X4Z3ca8xfWDb1Voo-F9a7ZxJ",
-  "refresh_token": "", // Authorization token
+  "client_id": "94815325795-np079n2ak0cujakgt2n5eovcqg9c406v.apps.googleusercontent.com
+",
+  "client_secret": "CTFFctD9X2EEl3oyWtuuZ7OV",
+  "refresh_token": "4/1AY0e-g4IJXa4j5tbCaPpTFbHlFTLbRI7SxkVkebLFLX3WPqQ8xQVwtaN_m0", // Authorization token
 /**
  * Set up multiple Drives to be displayed; add multiples by format
  * [id]: It can be team folder id, subfolder id, or "root" (representing the root directory of personal disk);
@@ -21,13 +22,13 @@ const authConfig = {
   "roots": [
     {
       id: "root", //you can use folderid other than root but then search wont work
-      name: "Personal Drive",
+      name: "Drive",
     },
     {
         id: "drive_id",
-        name: "Personal Drive II",
-        user: 'username',
-        pass: "password",
+        name: "TVSERIES ARCHIVE",
+        user: 'tvseriesco',
+        pass: "uploader4gg",
       }  
   ],
 
@@ -46,7 +47,7 @@ const uiConfig = {
   "main_color": "blue-grey",
   "accent_color": "blue",
   "fluid_navigation_bar": true,
-  "avatar": "https://raw.githubusercontent.com/sawankumar/Google-Drive-Index-III/master/images/avatar.jpg",
+  "avatar": "https://static.wikia.nocookie.net/marveldatabase/images/9/93/Marvel%E2%80%99s_Spider-Man_Miles_Morales_Famitsu_Cover_001.jpg/revision/latest?cb=20201113061140",
   "disable_navicon": true
 };
 
